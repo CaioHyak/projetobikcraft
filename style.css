@@ -1,0 +1,152 @@
+body{
+    width: 100%;
+    margin: 0px;
+    display: grid;
+    justify-items: center;
+    gap: 60px;
+    font-family: arial;
+}
+
+/**MENU INICIAL**/
+
+.bikcraft{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+}
+
+.menu li{
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    list-style: none;
+    }
+
+.menu-botao:hover{
+    border: 2px solid red;
+}
+
+.menu-botao {
+    padding: 10px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: rgb(252, 255, 255);
+    color: black;
+}
+
+
+/** CONTEUDO UM **/
+
+.conteudo-inicial{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1000px;
+}
+
+.bloco{
+    text-align: end;
+    background-color: #fff;
+    padding: 40px;
+    display: grid;
+    text-align: right;
+    align-content: center;
+    gap: 30px;
+    place-items: end;
+}
+
+.bloco h1{
+    margin: 0px;
+}
+
+.bloco p {
+    font-size: 1.3rem;
+    margin: 0px;
+}
+
+.botao{
+    background-color: rgb(195, 2, 2);
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    color: #ffff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.botao:hover{
+    background-color: #900;
+}
+
+.imagem{
+    max-width: 100%;
+    width: 500px;
+    
+ }
+
+ /** CONTEUDO DOIS **/
+
+ /** SUBTITULO **/
+.conteudo-secundario{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1000px;
+}
+
+.titulo-grande h2{
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-align: right;
+    color: #b0adad;
+    padding: 0px 40px;
+}
+
+.titulo-grande{
+    background-image: url(/img/onda.svg);
+}
+
+/** CONTEUDO ICONES **/
+
+.conteudo-adicional{
+    list-style: none;
+    padding: 40px;
+}
+
+.conteudo-secundario{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1000px;
+}
+
+
+.teste{
+    margin: 0px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 30px;
+    padding: 10px 20px;
+   
+}
+
+.teste:hover{
+    border-left: 4px solid red;
+}
+
+h3 {
+    margin: 0px;
+}
+
+p{
+    font-size: 1.3rem;
+}
+
+.teste:nth-child(odd){
+    background-color: #f8f7f7;
+}
+
+
+/** RODAPÉ **/
+
